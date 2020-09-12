@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1599875391096.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "436E8454",
+    "lastKnownWriteTime" : 1599873354,
+    "last_content_update" : 1599873354,
+    "path" : "~/Documents/Research/Malaria/flexfitTemp/R/normalizeSmp.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "60,70",
+        "scrollLine" : "42"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
