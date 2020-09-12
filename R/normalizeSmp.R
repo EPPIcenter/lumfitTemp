@@ -47,9 +47,9 @@ normalizeSmp <- function(dfout, antigen, fname, pdate, yvar, FUNinv, par,
   smps$Flag[imax]  <- "above_max"                   # overwrites
 
   if (extrapolate.low) {
-    ilo <- smp[, yvar] <= par["Alow"]
-    smp$Flag[ilo] <- "below_lower_asymptote"
-    smp$trim_lo <- par["Alow"]                     # 0 concentration
+    ilo <- smps[, yvar] <= par["Alow"]
+    smps$Flag[ilo] <- "below_lower_asymptote"
+    smps$trim_lo <- par["Alow"]                     # 0 concentration
   } else if (trim.flat && !is.na(bounds["lowerbound"])) {
     ilo <- ilobd
     smps$trim_lo <- bounds["lowerbound"]
@@ -58,9 +58,9 @@ normalizeSmp <- function(dfout, antigen, fname, pdate, yvar, FUNinv, par,
     smps$trim_lo <- bounds["mindet"]
   }
   if (extrapolate.up) {
-    iup <- smp[, yvar] >= par["Aup"]
-    smp$Flag[iup] <- "above_upper_asymptote"
-    smp$trim_up <- par["Aup"]                      # Inf concentration
+    iup <- smps[, yvar] >= par["Aup"]
+    smps$Flag[iup] <- "above_upper_asymptote"
+    smps$trim_up <- par["Aup"]                      # Inf concentration
   } else if (trim.flat && !is.na(bounds["upperbound"])) {
     iup <- iupbd
     smps$trim_up <- bounds["upperbound"]

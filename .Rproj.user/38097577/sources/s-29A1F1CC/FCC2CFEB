@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2639133707",
+    "hash" : "518556479",
     "id" : "FCC2CFEB",
-    "lastKnownWriteTime" : 1599875655,
-    "last_content_update" : 1599875655595,
+    "lastKnownWriteTime" : 1599875964,
+    "last_content_update" : 1599875964747,
     "path" : "~/Documents/Research/Malaria/lumfitTemp/R/normalizeSmp.R",
     "project_path" : "R/normalizeSmp.R",
     "properties" : {
-        "cursorPosition" : "60,18",
-        "scrollLine" : "38"
+        "cursorPosition" : "62,8",
+        "scrollLine" : "32"
     },
     "read_only" : false,
     "read_only_alternatives" : [
